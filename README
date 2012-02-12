@@ -1,0 +1,21 @@
+<h1>Projeto Minicurso JDK7</h1>
+<p>Coloquei nesse projeto demos das novas características do Java 7 (Dolphin), como</p>
+<ul>
+  <li>Separador de liteiras numéricas _</li>
+  <li>Operador switch com suporte a String</li>
+  <li>Operador Diamond (Generics)</li>
+  <li>AutoCloseable, o novo try-finally</li>
+  <li>Multicatch</li>
+  <li>Rethrow</li>
+  <li>JDBC 4.1</li>
+  <li>Nova API de IO (NIO.2)</li>
+  <li>@SafeVargs: Varargs com Generics</li>
+</ul>
+
+<br/>
+<h3>Informações complementares</h3>
+
+<p>Veja a apresentação sobre Java 7 em: <a href="http://www.slideshare.net/edermag/java7-tdc2011">http://www.slideshare.net/edermag/java7-tdc2011</a></p>
+
+<p>Blog: <a href="http://blog.globalcode.com.br/">http://blog.globalcode.com.br/</a></p>
+<p>Site: <a href="http://www.yaw.com.br">http://www.yaw.com.br</a></p>
