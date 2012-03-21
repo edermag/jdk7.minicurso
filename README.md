@@ -20,4 +20,4 @@ Informações complementares
 * Veja a apresentação sobre Java 7 em: http://www.slideshare.net/edermag/java7-tdc2011
 * Blog: http://blog.globalcode.com.br
 * Site: http://www.yaw.com.br
-
+* Minicurso: http://globalcode.com.br/gratuitos/minicursos/minicurso-JDK7-modificacoes-na-linguagem
