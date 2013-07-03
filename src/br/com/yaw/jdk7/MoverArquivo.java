@@ -19,6 +19,7 @@ public class MoverArquivo {
         
         //transfere o arquivo para outro lugar
         Files.move(backup, dirDestino.resolve(backup.getFileName()));
+        System.out.println("Pronto, o arquivo foi movido!");
     }
     
 }

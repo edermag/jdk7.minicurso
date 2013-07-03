@@ -24,6 +24,8 @@ public class ListarDiretorioTree {
         Finder finder = new Finder(filter);
         Files.walkFileTree(dir, finder);
         finder.end();
+        
+        System.out.printf("%nEncerrando a consulta a arquivos %s no diretório %s%n", filter, dir);
     }
 	
 	//implemento um filtro mais inteligente

@@ -29,13 +29,14 @@ public class NovoJDBC {
              Statement stmt = con.createStatement();
              ResultSet rs = stmt.executeQuery(query)) {
              
-
-              while (rs.next()) {
-                  String nome = rs.getString("nome");
-                  String cpf = rs.getString("cpf");
-                  
-                  System.out.printf("Nome:%s\t Cpf:%s %n", nome, cpf);
-              }
+             while (rs.next()) {
+                 String nome = rs.getString("nome");
+                 String cpf = rs.getString("cpf");
+                 
+                 System.out.printf("Nome:%s\t Cpf:%s %n", nome, cpf);
+             }
+             
+             System.out.println("\nEncerrando consulta com JDBC (Java 7)");
          }
     }
     

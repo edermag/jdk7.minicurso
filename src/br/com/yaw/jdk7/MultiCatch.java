@@ -1,6 +1,5 @@
 package br.com.yaw.jdk7;
 
-import java.sql.SQLException;
 
 /**
  * Exemplo: multicatch, mesmo tratamento para 2 tipos de exceções.

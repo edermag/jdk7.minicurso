@@ -9,7 +9,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 /**
- * Exemplo: verificar o mimetype do arquivo com a API NIO.2.
+ * Exemplo: verificar o mimetype (content-type) do arquivo com a API NIO.2.
  *
  * @author <a href="mailto:eder@yaw.com.br">Eder Magalhães</a>
  */
@@ -20,7 +20,7 @@ public class MimeType {
         Path file = Paths.get(filename);
         String type = Files.probeContentType(file);
         
-        System.out.format("%s tem MimeType: %s %n", file, type);
+        System.out.format("%s tem MimeType/ContentType: %s %n", file, type);
     }
     
 }

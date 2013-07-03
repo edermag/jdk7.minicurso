@@ -31,7 +31,7 @@ public class LerArquivoAsync {
                 Thread.sleep(500);
             }
             
-            System.out.printf("Encerro %s sucesso %n", result.isDone() ? "com" : "sem");
+            System.out.printf("Encerrou %s sucesso %n", result.isDone() ? "com" : "sem");
             System.out.printf("Total de %d bytes lidos%n", result.get());
         }
     }

@@ -1,7 +1,7 @@
 package br.com.yaw.jdk7;
 
 /**
- * Exemplo: listerais binarias.
+ * Exemplo: literais binarias.
  *  
  * @author <a href="mailto:eder@yaw.com.br">Eder Magalhães</a>
  */
@@ -25,8 +25,8 @@ public class NumerosBinarios {
 		System.out.println("");
 		
         //complemento...
-        System.out.println(6 == 0b0110);
-        System.out.println(0b0110 + 0b0110);
+        System.out.printf("6 == 0b0110 = %s%n", 6 == 0b0110);
+        System.out.printf("0b0110 + 0b0110 = %s%n", 0b0110 + 0b0110);
 	}
 	
 }
