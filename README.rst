@@ -21,3 +21,5 @@ Informações complementares
 * Blog: http://blog.globalcode.com.br
 * Site: http://www.yaw.com.br
 * Minicurso: http://globalcode.com.br/gratuitos/minicursos/minicurso-JDK7-modificacoes-na-linguagem
+
+`Inglês <https://github.com/edermag/jdk7.minicurso/blob/master/README_en_US.rst>`_
